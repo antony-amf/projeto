@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get('/',function(req, res){
-   res.send("Sistema Ativo oi")
+   res.send("Sistema Ativo ")
 })
 
 app.listen(3000, function(){ 
